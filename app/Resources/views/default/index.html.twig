@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="app"></div>
+{% endblock %}
+
+{% block stylesheets %}
+<style>
+
+</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-aria/resources/theme-aria-all-debug.css" />
+{% endblock %}
+
+{% block javascripts %}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
+{% endblock %}
